@@ -21,7 +21,7 @@ module.exports = (api, options, rootOptions) => {
       'storybook:build': 'vue-cli-service storybook:build -c config/storybook',
     },
     devDependencies: {
-      '@storybook/vue': params.versionRange,
+      '@storybook/vue3': params.versionRange,
       '@storybook/addon-essentials': params.versionRange,
     },
   });
